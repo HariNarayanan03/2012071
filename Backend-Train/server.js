@@ -37,10 +37,7 @@ app.get("/trains",(req,res)=>{
    res.json(arr);
 })
 
-// let trainnum =arr.get("trainNumber");
-app.get("/trains/{arr.get('trainNumber')}",(req,res)=>{
-    res.json(arr);
- })
+
 
 app.listen(5000,()=>{
     console.log("Listening....");
